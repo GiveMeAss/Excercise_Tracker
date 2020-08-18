@@ -1,0 +1,40 @@
+body {
+	background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(logo.jpg);
+	background-size:300vh;
+	background-position:center;
+	background-repeat: no-repeat;
+}
+h3{
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+}
+label{
+	color: #fff;
+}
+.container{
+	max-width: 700px;
+	float: center;
+	margin:150px;
+}
+.login-left{
+	background: rgba(211,211,211,0.5);
+	padding: 30px;
+}
+.login-right{
+	background:#ADD8E6;
+	padding: 30px;
+	border: 1px;
+}
+a{
+	float: bottom right;
+}
+.form-control{
+	background-color: transparent! important;
+	border: 1px solid black! important;
+}
+.row{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
